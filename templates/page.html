@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="$fullname$" />
+    <meta name="keywords" content="$keywords$" />
+    <meta name="description" content="$description$" />
+    <meta name="generator" content="Hakyll" />
+    <meta name="referrer" content="origin" />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:image" content="$openGraphImage$" />
+    <title>$fullname$ | University of Edinburgh</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.customizations.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="details">
+	<div class="row">
+	  <!-- Profile -->
+	  <div class="col-md-10">
+	    <div class="profile-pic">
+	      <img src="static/images/danielhillerstrom.jpg" alt="$fullname$" class="img-responsive img-thumbnail">
+	    </div>
+	    <div>
+	      <h2 class="media-heading">$fullname$ <small>($position$)</small></h2>
+	      <code>email = (&#955;name . name ++ &quot;@ed.ac.uk&quot;) : string &#8594; string</code><br>
+	      <code>email &quot;daniel.hillerstrom&quot;</code><br><br>
+	      Informatics Forum<br>
+	      Office $office$<br>
+	      10 Crichton Street<br>
+	      EH8 9AB, Edinburgh<br>
+	      United Kingdom	    
+	    </div>
+	  </div>
+	  <!-- /Profile -->
+	  <!-- Affliations -->
+	  <div class="col-md-2 hidden-xs">
+	    <div class="media">
+	      <div class="media-top">
+		<a href="http://www.inf.ed.ac.uk">
+		  <img src="static/images/informatics.jpg" alt="Informatics, University of Edinburgh" class="affliation-informatics img-responsive">
+		</a>
+	      </div>
+	    </div>
+
+	    <div class="media">
+	      <div class="media-top">
+		<a href="http://pervasiveparallelism.inf.ed.ac.uk">
+		  <img src="static/images/ppar.jpg" alt="Pervasive Parallelism, Informatics, University of Edinburgh" class="affliation-ppar img-responsive">
+		</a>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- /Affliations -->
+	</div>
+      </section>
+      <!-- Sections (content) -->
+      $partial("templates/sections.html")$
+      <!-- /Sections (content) -->
+    </div>
+    <footer class="sticky-footer">
+      <div class="container">
+        <p class="text-muted">Last modified on <time id="last-modified" datetime="$modified$">$modified$</time>.</p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myCalendar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+	<div class="modal-content">
+	  <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Calendar</h4>
+	  </div>
+	  <div class="modal-body">
+	    The calendar is fetched from Office365. Do not blame me if it is not showing, blame Microsoft.
+            <iframe src="$calendarAddress$" width="960px" height="750px" scrolling="0" frameborder="0" allowTransparency="true"></iframe>    
+	  </div>
+	  <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	  </div>
+	</div>
+      </div>
+    </div>
+    
+    <!-- Load scripts -->
+    <script src="static/js/jquery-2.1.4.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      function formatDate(datetime) {
+        var d = new Date(datetime);
+        var months = ["January","February"
+                     ,"March","April","May"
+                     ,"June","July","August"
+                     ,"September","October","November"
+                     ,"December"
+                     ];
+        return months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear()
+      }
+   
+      $$(document).ready(function() {
+        $$('#last-modified').text(formatDate("$modified$"))
+        $$('#calendar-link').attr('data-toggle', 'modal')
+        $$('#calendar-link').attr('data-target', '#myCalendar')
+      });
+    </script>
+  </body>
+</html>
