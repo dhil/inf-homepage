@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 20px;
+    margin-bottom: 60px;
+    font-size: 11pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profile-pic {
+    float: left;
+    margin-right: 1%;
+    vertical-align: text-top;
+}
+
+.profile-pic img {
+    width: 250px;
+    height: 250px;
+}
+
+.affliation-informatics {
+    width: 180px;
+    height: 50px;
+}
+
+.affliation-ppar {
+    width: 180px;
+    height: 30px;
+}
+
+.body-content {
+    padding-left: 1%;
+    line-height: 150%;
+}
+
+.panel-body, .body-content {
+    text-align: justify;
+}
+
+#cv li {
+    line-height: 80%;
+    font-size: 95%;
+}
+
+#cv h3 {
+    font-size: 130%;
+}
+
+.sticky-footer {
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+.modal-header {
+    text-align: center;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #0480be;
+    color:#ffffff;
+    font-weight:bold;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
