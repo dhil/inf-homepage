@@ -66,7 +66,7 @@ pageContext = mconcat
               , constField "position" "Research Postgraduate Student"                
               , constField "description" "Research student at the University of Edinburgh"
               , constField "openGraphImage" "static/images/danielhillerstrom.jpg"
-              , constField "office" "Office 1.07/2"
+              , constField "office" "1.07/2"
               , constField "calendarAddress" "http://outlook.office365.com/owa/calendar/20c5486dec694fceb8d8338a5503d292@sms.ed.ac.uk/d64deeddd9034c7aacd67ac6d7761a0414743136574121059709/calendar.html"
               , defaultContext
               ]
