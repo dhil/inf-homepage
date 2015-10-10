@@ -180,21 +180,21 @@ Advised by Hans Hüttel
     </div>
     <footer class="sticky-footer">
       <div class="container">
-        <p class="text-muted">Last modified on <time id="last-modified" datetime="2015-10-08T19:47:47.884173Z">2015-10-08T19:47:47.884173Z</time>.</p>
+        <p class="text-muted">Last modified on <time id="last-modified" datetime="2015-10-10T12:38:21.722653Z">2015-10-10T12:38:21.722653Z</time>.</p>
       </div>
     </footer>
 
     <!-- Modal -->
     <div class="modal fade" id="myCalendar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog calendar-modal" role="document">
 	<div class="modal-content">
 	  <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Calendar</h4>
 	  </div>
 	  <div class="modal-body">
-	    The calendar is fetched from Office365. Do not blame me if it is not showing, blame Microsoft.
-            <iframe src="http://outlook.office365.com/owa/calendar/20c5486dec694fceb8d8338a5503d292@sms.ed.ac.uk/d64deeddd9034c7aacd67ac6d7761a0414743136574121059709/calendar.html" width="960px" height="750px" scrolling="0" frameborder="0" allowTransparency="true"></iframe>    
+	    The calendar is fetched from Google. Do not blame me if it is not showing, blame Google.
+	    <iframe class="calendar" src="https://www.google.com/calendar/embed?src=236h5mc80or5ltgj91acmr5vhag1s4jg%40import.calendar.google.com&ctz=Europe/London" frameborder="0" scrolling="no"></iframe>
 	  </div>
 	  <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -202,6 +202,7 @@ Advised by Hans Hüttel
 	</div>
       </div>
     </div>
+    <!-- /Modal -->
     
     <!-- Load scripts -->
     <script src="static/js/jquery-2.1.4.min.js"></script>
@@ -219,7 +220,7 @@ Advised by Hans Hüttel
       }
    
       $(document).ready(function() {
-        $('#last-modified').text(formatDate("2015-10-08T19:47:47.884173Z"))
+        $('#last-modified').text(formatDate("2015-10-10T12:38:21.722653Z"))
         $('#calendar-link').attr('data-toggle', 'modal')
         $('#calendar-link').attr('data-target', '#myCalendar')
       });
