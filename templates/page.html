@@ -70,15 +70,15 @@
 
     <!-- Modal -->
     <div class="modal fade" id="myCalendar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
+      <div class="modal-dialog calendar-modal" role="document">
 	<div class="modal-content">
 	  <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Calendar</h4>
 	  </div>
 	  <div class="modal-body">
-	    The calendar is fetched from Office365. Do not blame me if it is not showing, blame Microsoft.
-            <iframe src="$calendarAddress$" width="960px" height="750px" scrolling="0" frameborder="0" allowTransparency="true"></iframe>    
+	    The calendar is fetched from Google. Do not blame me if it is not showing, blame Google.
+	    <iframe class="calendar" src="$calendarAddress$" frameborder="0" scrolling="no"></iframe>
 	  </div>
 	  <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -86,6 +86,7 @@
 	</div>
       </div>
     </div>
+    <!-- /Modal -->
     
     <!-- Load scripts -->
     <script src="static/js/jquery-2.1.4.min.js"></script>

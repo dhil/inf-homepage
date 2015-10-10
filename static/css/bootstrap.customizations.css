@@ -60,6 +60,17 @@ body {
     background-color: #f5f5f5;
 }
 
+.calendar-modal {
+    width: 75%;
+    margin-left: -25% auto;
+}
+
+.calendar {
+    width: 100%;
+    min-height: 400px;
+    border: 0;
+}
+
 .modal-header {
     text-align: center;
     padding:9px 15px;
