@@ -1,5 +1,10 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-
+ - Author     : Daniel Hillerström
+ - Description: Personal/professional single, static page for research staff/students
+ - 
+ -}
 import           Control.Applicative ((<$>))
 import           Control.Monad       (liftM)
 import           Data.Monoid         ((<>), mconcat)
