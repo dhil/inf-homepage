@@ -5,20 +5,19 @@
  - Description: Personal/professional single, static page for research staff/students
  - 
  -}
-import           Control.Applicative ((<$>))
 import           Control.Monad       (liftM)
 import           Data.Monoid         ((<>), mconcat)
+import           Data.Time           (getCurrentTime)
+import           Data.Time.Format    (formatTime)
+import           Hakyll
 import           Prelude             hiding (id)
 import qualified Text.Pandoc         as Pandoc
-import Data.List (isPrefixOf, tails, findIndex, intercalate, sortBy)
-import Data.Char (isSpace)
-import Data.Time (getCurrentTime,toGregorian)
-import Data.Time.Format (formatTime)
-import System.Locale (defaultTimeLocale)
+import           System.Locale       (defaultTimeLocale)
 
-import           Hakyll
-import           Hakyll.Web.Tags
-import           Hakyll.Web.Pandoc.Biblio
+
+
+
+
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -63,6 +62,7 @@ main = hakyll $ do
   -- | Templates
   match "templates/*" $ compile templateCompiler
 --------------------------------------------------------------------------------
+pageContext :: Context String
 pageContext = mconcat
               [
                 dateField "date" "%B %e, %Y"
@@ -75,10 +75,15 @@ pageContext = mconcat
               , defaultContext
               ]
 
+socialContext :: Context String
 socialContext = mconcat
                 [
-                  constField "image" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
+                  constField "url" "http://homepages.inf.ed.ac.uk/s1467124"                
+                , constField "image" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
                 , constField "description" "Research postgraduate student at the University of Edinburgh"
+                , constField "sitename" "Informatics research profile page"
+                , constField "twitterHandle" "@dhillerstrom"
+                , constField "title" "Daniel Hillerstr&#246;m | University of Edinburgh"
                 , defaultContext
                 ]
 
