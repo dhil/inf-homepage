@@ -83,7 +83,7 @@ socialContext = mconcat
                 , constField "description" "Research postgraduate student at the University of Edinburgh"
                 , constField "sitename" "Informatics research profile page"
                 , constField "twitterHandle" "@dhillerstrom"
-                , constField "title" "Daniel Hillerstr&#246;m | University of Edinburgh"
+                , constField "pagetitle" "Daniel Hillerstr&#246;m | University of Edinburgh"
                 , defaultContext
                 ]
 
