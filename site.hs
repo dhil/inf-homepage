@@ -70,7 +70,7 @@ pageContext = mconcat
               , constField "fullname" "Daniel Hillerstr&#246;m"
               , constField "position" "Research Postgraduate Student"                
               , constField "description" "Research student at the University of Edinburgh"
-              , constField "openGraphImage" "static/images/danielhillerstrom.jpg"
+              , constField "openGraphImage" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
               , constField "office" "1.07/2"
               , constField "calendarAddress" "https://www.google.com/calendar/embed?src=236h5mc80or5ltgj91acmr5vhag1s4jg%40import.calendar.google.com&amp;mode=WEEK&amp;ctz=Europe/London"
               , defaultContext
