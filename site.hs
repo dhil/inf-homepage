@@ -69,12 +69,18 @@ pageContext = mconcat
               , constField "keywords" "computer science,mathematics,programming languages,compilers,parallelism"
               , constField "fullname" "Daniel Hillerstr&#246;m"
               , constField "position" "Research Postgraduate Student"                
-              , constField "description" "Research student at the University of Edinburgh"
-              , constField "openGraphImage" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
               , constField "office" "1.07/2"
               , constField "calendarAddress" "https://www.google.com/calendar/embed?src=236h5mc80or5ltgj91acmr5vhag1s4jg%40import.calendar.google.com&amp;mode=WEEK&amp;ctz=Europe/London"
+              , socialContext
               , defaultContext
               ]
+
+socialContext = mconcat
+                [
+                  constField "image" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
+                , constField "description" "Research postgraduate student at the University of Edinburgh"
+                , defaultContext
+                ]
 
 -- | Bibtex compiler
 bibtexCompiler :: String -> String -> Compiler (Item String)
