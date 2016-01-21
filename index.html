@@ -26,8 +26,8 @@
     <meta property="og:image" content="http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg" />
     <meta property="og:description" content="Research postgraduate student at the University of Edinburgh" />
     <meta property="og:site_name" content="Informatics research profile page" />
-    <meta property="article:published_time" content="2015-12-22T16:48:49.45567Z" />
-    <meta property="article:modified_time" content="2015-12-22T16:48:49.45567Z" />
+    <meta property="article:published_time" content="2016-01-21T10:44:07.823721Z" />
+    <meta property="article:modified_time" content="2016-01-21T10:44:07.823721Z" />
     <meta property="article:section" content="Informatics research profile page" />
     <meta property="article:tag" content="computer science,mathematics,programming languages,compilers,parallelism" />
     <!-- Page title -->
@@ -39,6 +39,9 @@
 
   <body>
     <div class="container">
+      <section id="abstract" class="hidden">
+	Daniel Hillerström is a PhD student enrolled into the Centre for Doctoral Training in Pervasive Parallelism at the School of Informatics, the University of Edinburgh. His primary research interests are programming languages, their use and implementation.
+      </section>
       <section id="details">
 	<div class="row">
 	  <!-- Profile -->
@@ -227,7 +230,7 @@ Advised by Hans Hüttel
     </div>
     <footer class="sticky-footer">
       <div class="container">
-        <p class="text-muted">Last modified on <time id="last-modified" datetime="2015-12-22T16:48:49.45567Z">2015-12-22T16:48:49.45567Z</time>.</p>
+        <p class="text-muted">Last modified on <time id="last-modified" datetime="2016-01-21T10:44:07.823721Z">2016-01-21T10:44:07.823721Z</time>.</p>
       </div>
     </footer>
 
@@ -267,11 +270,34 @@ Advised by Hans Hüttel
       }
    
       $(document).ready(function() {
-        $('#last-modified').text(formatDate("2015-12-22T16:48:49.45567Z"))
+        $('#last-modified').text(formatDate("2016-01-21T10:44:07.823721Z"))
         $('#calendar-link').attr('data-toggle', 'modal')
         $('#calendar-link').attr('data-target', '#myCalendar')
       });
     </script>
+    <!-- Structured data / rich snipplets -->
+    <script type="application/ld+json">
+      {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+        "@id": "http://homepages.inf.ed.ac.uk/s1467124",
+        "name": "Research profile"
+        }]
+      }
+
+      // Social profile(s) integration
+      { "@context" : "http://schema.org",
+        "@type" : "Organization",
+        "name" : "Daniel Hillerstr&#246;m",
+        "url" : "http://homepages.inf.ed.ac.uk/s1467124",
+        "sameAs" : ["http://www.twitter.com/@dhillerstrom"]
+      }
+    </script>
+  
 <!--    <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -280,6 +306,6 @@ Advised by Hans Hüttel
 
       ga('create', 'UA-68610717-1', 'auto');
       ga('send', 'pageview');
-    </script> -->
+      </script> -->
   </body>
 </html>
