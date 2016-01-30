@@ -6,13 +6,12 @@
  - 
  -}
 import           Control.Monad       (liftM)
-import           Data.Monoid         ((<>), mconcat)
+import           Data.Monoid         ((<>))
 import           Data.Time           (getCurrentTime)
-import           Data.Time.Format    (formatTime)
+import           Data.Time.Format    (formatTime,defaultTimeLocale)
 import           Hakyll
 import           Prelude             hiding (id)
 import qualified Text.Pandoc         as Pandoc
-import           System.Locale       (defaultTimeLocale)
 
 
 

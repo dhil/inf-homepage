@@ -24,3 +24,6 @@ _cache
 _site
 site
 _build
+
+# Stack
+.stack-work/
