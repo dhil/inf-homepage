@@ -79,7 +79,7 @@ socialContext = mconcat
                 [
                   constField "url" "http://homepages.inf.ed.ac.uk/s1467124"                
                 , constField "image" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
-                , constField "description" "Research postgraduate student at the University of Edinburgh"
+                , constField "description" "Daniel Hillerstr&#246;m is a PhD student enrolled into the Centre for Doctoral Training in Pervasive Parallelism at the School of Informatics, the University of Edinburgh. His primary research interests are programming languages, their use and implementation."
                 , constField "sitename" "Informatics research profile page"
                 , constField "twitterHandle" "@dhillerstrom"
                 , constField "pagetitle" "Daniel Hillerstr&#246;m | University of Edinburgh"
