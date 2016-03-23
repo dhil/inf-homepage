@@ -26,10 +26,10 @@ main = hakyll $ do
     compile copyFileCompiler
 
   -- | Publications
-    match ("pubs/*.pdf" .||. "pubs/*.ps" .||. "pubs/*.dvi") $ do
+    match ("papers/*.pdf" .||. "papers/*.ps" .||. "papers/*.dvi") $ do
       route idRoute
       compile copyFileCompiler
-    match "publications.bib" $ compile biblioCompiler
+    match "*.bib" $ compile biblioCompiler
     match "csl/*" $ compile cslCompiler
 
   -- | Sections
@@ -38,7 +38,7 @@ main = hakyll $ do
     compile $ do
       let sectionCtx = pageContext
           
-      bibtexCompiler "csl/ieee.csl" "publications.bib"
+      defaultBibtexCompiler
         >>= loadAndApplyTemplate "templates/section.html" sectionCtx
         >>= relativizeUrls
         >>= saveSnapshot "sections"
@@ -53,7 +53,7 @@ main = hakyll $ do
                      constField "modified" now <>
                      pageContext
           
-      bibtexCompiler "csl/ieee.csl" "publications.bib"
+      getResourceString
         >>= applyAsTemplate indexCtx
         >>= loadAndApplyTemplate "templates/page.html" indexCtx
         >>= relativizeUrls
@@ -94,6 +94,9 @@ bibtexCompiler cslFileName bibFileName
     bib <- load $ fromFilePath bibFileName
     liftM writePandoc
       (getResourceBody >>= readPandocBiblio Pandoc.def csl bib)
+
+defaultBibtexCompiler :: Compiler (Item String)
+defaultBibtexCompiler = bibtexCompiler "csl/ieee.csl" "papers.bib"
 
 today :: IO String
 today =
