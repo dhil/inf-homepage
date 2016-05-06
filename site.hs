@@ -26,7 +26,7 @@ main = hakyll $ do
     compile copyFileCompiler
 
   -- | Publications
-    match ("papers/*.pdf" .||. "papers/*.ps" .||. "papers/*.dvi") $ do
+    match ("papers/*.pdf" .||. "papers/*.ps" .||. "papers/*.dvi" .||. "talks/*.pdf") $ do
       route idRoute
       compile copyFileCompiler
     match "*.bib" $ compile biblioCompiler
