@@ -68,7 +68,7 @@ pageContext = mconcat
               , constField "keywords" "computer science,mathematics,programming languages,compilers,parallelism"
               , constField "fullname" "Daniel Hillerstr&#246;m"
               , constField "position" "Research Postgraduate Student"                
-              , constField "office" "1.07/2"
+              , constField "office" "5.24/1"
               , constField "calendarUrl" "https://www.google.com/calendar/embed?src=236h5mc80or5ltgj91acmr5vhag1s4jg%40import.calendar.google.com&amp;mode=WEEK&amp;ctz=Europe/London"
               , socialContext
               , defaultContext
