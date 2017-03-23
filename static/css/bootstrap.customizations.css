@@ -34,13 +34,13 @@ body {
     text-align: justify;
 }
 
-#cv li {
+#awards li, #edu li {
     text-align: left;
     line-height: 80%;
     font-size: 95%;
 }
 
-#cv h3 {
+#awards h3, #edu h3 {
     font-size: 130%;
 }
 
