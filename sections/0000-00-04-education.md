@@ -18,4 +18,3 @@ glyph: education
 <p>August 2010 - June 2014</p>
 <p>Aalborg University, Denmark</p>
 <p>Advised by Hans H&#252;ttel</p>
-
