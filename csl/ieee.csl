@@ -223,7 +223,7 @@
     </layout>
   </citation>
   <!-- Bibliography -->
-  <bibliography entry-spacing="0" second-field-align="flush">    
+  <bibliography entry-spacing="0" second-field-align="flush">
     <layout suffix=".">
       <!-- Citation Number -->
       <text value="-- "/>
@@ -247,7 +247,7 @@
             <text macro="title"/>
             <text macro="event"/>
             <text macro="issued"/>
-            <text macro="locators"/>	    
+            <text macro="locators"/>
             <text macro="page"/>
           </group>
         </else-if>
