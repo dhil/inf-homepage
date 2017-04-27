@@ -14,7 +14,7 @@ glyph: tasks
 <p>Daniel Hillerström and Sam Lindley.</p>
 <p>*In* TyDe@ICFP'16.</p>
 
-### *Extended Abstracts*
+### *Extended abstracts*
 
 * ### [Compiling Links Effect Handlers to the OCaml Backend](papers/mlabstract2016.pdf).
 <p>Daniel Hillerström, Sam Lindley, and KC Sivaramakrishnan.</p>
