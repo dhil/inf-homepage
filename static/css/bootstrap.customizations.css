@@ -34,13 +34,13 @@ body {
     text-align: justify;
 }
 
-#awards li, #edu li, #teaching li {
+#awards li, #edu li, #teaching li, #publications li {
     text-align: left;
     line-height: 80%;
     font-size: 95%;
 }
 
-#awards h3, #edu h3, #teaching h3 {
+#awards h3, #edu h3, #teaching h3, #publications h3 {
     font-size: 120%;
 }
 
