@@ -79,3 +79,7 @@ body {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
+li p {
+    line-height: 1.0;
+}
