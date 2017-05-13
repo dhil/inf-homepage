@@ -8,7 +8,7 @@ glyph: tasks
 
 * ### [Concurrent System Programming with Effect Handlers](papers/conc_system_prog_handlers-draft-may2017.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, and Leo White</p>
-<p>Draft, May 2017</p>
+<p>TFP Symposium 2017</p>
 
 * ### [Continuation Passing Style for Effect Handlers](papers/cps-handlers-draft-april2017.pdf)
 <p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
