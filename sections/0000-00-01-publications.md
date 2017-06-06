@@ -20,6 +20,10 @@ glyph: tasks
 
 ### *Extended abstracts*
 
+* ### [Effectively Tackling the Awkward Squad](papers/awkward_effects-ml17.pdf)
+<p>Stephen Dolan, Spiros Eliopolous, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, Leo White</p>
+<p>Draft, May 2017</p>
+
 * ### [Compiling Links Effect Handlers to the OCaml Backend](papers/mlabstract2016.pdf)
 <p>Daniel Hillerström, Sam Lindley, and KC Sivaramakrishnan</p>
 <p>ML Workshop 2016</p>
