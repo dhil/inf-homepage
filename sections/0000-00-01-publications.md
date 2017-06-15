@@ -12,7 +12,7 @@ glyph: tasks
 
 * ### [Continuation Passing Style for Effect Handlers](papers/cps-handlers-draft-april2017.pdf)
 <p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
-<p>Draft, April 2017</p>
+<p>To appear at FSCD'17</p>
 
 * ### [Liberating Effects with Rows and Handlers](papers/liberating_effects-tyde2016.pdf).
 <p>Daniel Hillerström and Sam Lindley.</p>
