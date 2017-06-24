@@ -28,6 +28,16 @@ publish: build
 	git push origin master ;\
 	}
 
+sync: .git
+	{ \
+	git pull origin source ;\
+	}
+
+	{ \
+	cd _build ;\
+	git pull origin master ;\
+	}
+
 clean: site
 	stack exec site clean
 
