@@ -18,7 +18,7 @@ glyph: tasks
 
 * ### [Effectively Tackling the Awkward Squad](papers/awkward_effects-ml17.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, Leo White</p>
-<p>Draft, May 2017</p>
+<p>[ML Workshop 2017](http://icfp17.sigplan.org/track/mlfamilyworkshop-2017-papers)</p>
 
 * ### [Concurrent System Programming with Effect Handlers](papers/conc_system_prog_handlers-draft-may2017.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, and Leo White</p>
