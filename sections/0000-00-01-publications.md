@@ -10,7 +10,7 @@ glyph: tasks
 <p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
 <p>To appear at [FSCD'17](https://www.cs.ox.ac.uk/conferences/fscd2017/)</p>
 
-* ### [Liberating Effects with Rows and Handlers](papers/liberating_effects-tyde2016.pdf).
+* ### [Liberating Effects with Rows and Handlers](papers/liberating_effects-tyde2016.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
 <p>*In* [TyDe@ICFP'16](http://conf.researchr.org/track/icfp-2016/tyde-2016-papers)</p>
 
