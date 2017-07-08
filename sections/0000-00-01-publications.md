@@ -6,9 +6,9 @@ glyph: tasks
 
 ### *Papers*
 
-* ### [Continuation Passing Style for Effect Handlers](papers/cps-handlers-draft-april2017.pdf)
+* ### [Continuation Passing Style for Effect Handlers](papers/cps_handlers-fscd2017.pdf)
 <p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
-<p>To appear at [FSCD'17](https://www.cs.ox.ac.uk/conferences/fscd2017/)</p>
+<p>*In* [FSCD'17](https://www.cs.ox.ac.uk/conferences/fscd2017/)</p>
 
 * ### [Liberating Effects with Rows and Handlers](papers/liberating_effects-tyde2016.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
