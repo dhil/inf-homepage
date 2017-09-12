@@ -18,7 +18,7 @@ glyph: tasks
 
 * ### [Effectively Tackling the Awkward Squad](papers/awkward_effects-ml17.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, Leo White</p>
-<p>[ML Workshop 2017](http://icfp17.sigplan.org/track/mlfamilyworkshop-2017-papers)</p>
+<p>[ML Family Workshop 2017](http://icfp17.sigplan.org/track/mlfamilyworkshop-2017-papers)</p>
 
 * ### [Concurrent System Programming with Effect Handlers](papers/conc_system_prog_handlers-draft-may2017.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, and Leo White</p>
@@ -26,7 +26,7 @@ glyph: tasks
 
 * ### [Compiling Links Effect Handlers to the OCaml Backend](papers/mlabstract2016.pdf)
 <p>Daniel Hillerström, Sam Lindley, and KC Sivaramakrishnan</p>
-<p>[ML Workshop 2016](http://icfp16.sigplan.org/track/mlfamilyworkshop-2016-papers)</p>
+<p>[ML Family Workshop 2016](http://icfp16.sigplan.org/track/mlfamilyworkshop-2016-papers)</p>
 
 ### *Dissertations*
 
