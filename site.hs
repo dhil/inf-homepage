@@ -77,8 +77,8 @@ pageContext = mconcat
 socialContext :: Context String
 socialContext = mconcat
                 [
-                  constField "url" "http://homepages.inf.ed.ac.uk/s1467124"                
-                , constField "image" "http://homepages.inf.ed.ac.uk/s1467124/static/images/danielhillerstrom.jpg"
+                  constField "url" "https://www.dhil.net/research"
+                , constField "image" "https://www.dhil.net/research/static/images/danielhillerstrom.jpg"
                 , constField "description" "Daniel Hillerstr&#246;m is a PhD student enrolled into the Centre for Doctoral Training in Pervasive Parallelism at the School of Informatics, the University of Edinburgh. His primary research interests are programming languages, their use and implementation."
                 , constField "sitename" "Informatics research profile page"
                 , constField "twitterHandle" "@dhillerstrom"
