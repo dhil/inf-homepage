@@ -1,6 +1,6 @@
 [submodule "_build"]
 	path = _build
-	url = ssh://git@github.com/dhil/inf-homepage.git
+	url = git@github.com:dhil/inf-homepage.git
 [submodule "_site"]
 	path = _site
 	url = git@github.com:dhil/inf-homepage.git
