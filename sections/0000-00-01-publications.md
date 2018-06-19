@@ -6,10 +6,13 @@ glyph: tasks
 
 ### *Papers*
 
+* ### [Shallow Effect Handlers](papers/shallow-handlers-draft-june2018.pdf)
+<p>Daniel Hillerström and Sam Lindley</p>
+<p>Draft, June 2018</p>
+
 * ### [Concurrent System Programming with Effect Handlers](papers/conc_system_prog_handlers-tfp2017.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, and Leo White</p>
 <p>*In* [TFP'17](https://www.cs.kent.ac.uk/events/tfp17/)</p>
-
 
 * ### [Continuation Passing Style for Effect Handlers](papers/cps_handlers-fscd2017.pdf)
 <p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
