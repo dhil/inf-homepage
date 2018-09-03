@@ -8,7 +8,7 @@ glyph: tasks
 
 * ### [Shallow Effect Handlers](papers/shallow_effect_handlers-aplas2018.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
-<p>*In* [APLAS 2018](http://aplas2018.org)</p>
+<p>*In* [APLAS'18](http://aplas2018.org)</p>
 
 * ### [Concurrent System Programming with Effect Handlers](papers/conc_system_prog_handlers-tfp2017.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, and Leo White</p>
