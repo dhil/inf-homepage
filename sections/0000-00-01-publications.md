@@ -6,6 +6,10 @@ glyph: tasks
 
 ### *Papers*
 
+* ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp-draft.pdf)
+<p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
+<p>Draft, February 2019</p>
+
 * ### [Shallow Effect Handlers](papers/shallow_effect_handlers-extended-aplas2018.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
 <p>*In* [APLAS'18](http://aplas2018.org)</p>
@@ -15,7 +19,7 @@ glyph: tasks
 <p>*In* [TFP'17](https://www.cs.kent.ac.uk/events/tfp17/)</p>
 
 * ### [Continuation Passing Style for Effect Handlers](papers/cps_handlers-fscd2017.pdf)
-<p>Daniel Hillerström, Sam Lindley, Bob Atkey, and KC Sivaramakrishnan</p>
+<p>Daniel Hillerström, Sam Lindley, Robert Atkey, and KC Sivaramakrishnan</p>
 <p>*In* [FSCD'17](https://www.cs.ox.ac.uk/conferences/fscd2017/)</p>
 
 * ### [Liberating Effects with Rows and Handlers](papers/liberating_effects-tyde2016.pdf)
