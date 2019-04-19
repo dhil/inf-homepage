@@ -80,6 +80,8 @@ body {
     border-top-right-radius: 5px;
 }
 
-li p {
-    line-height: 1.0;
+li {
+    line-height: 1.5em;
 }
+
+
