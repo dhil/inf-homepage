@@ -6,7 +6,7 @@ glyph: tasks
 
 ### *Papers*
 
-* ### [Asymptotic Improvement with Effect Handlers](papers/asymptotic_improvement-draft-july2019.pdf)
+* ### [Asymptotic Improvement with Effect Handlers](papers/asymptotic_improvement-draft-november2019.pdf)
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
 <p>Draft, July 2019</p>
 
