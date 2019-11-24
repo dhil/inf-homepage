@@ -8,7 +8,7 @@ glyph: tasks
 
 * ### [Asymptotic Improvement with Effect Handlers](papers/asymptotic_improvement-draft-november2019.pdf)
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
-<p>Draft, July 2019</p>
+<p>Draft, November 2019</p>
 
 * ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp-draft.pdf)
 <p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
