@@ -10,9 +10,9 @@ glyph: tasks
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
 <p>Draft, November 2019</p>
 
-* ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp-draft.pdf)
+* ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
-<p>Draft, February 2019</p>
+<p>To appear in the special issue on algebraic effects and handlers, January 2020</p>
 
 * ### [Shallow Effect Handlers](papers/shallow_effect_handlers-extended-aplas2018.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
@@ -31,6 +31,10 @@ glyph: tasks
 <p>*In* [TyDe@ICFP'16](http://conf.researchr.org/track/icfp-2016/tyde-2016-papers)</p>
 
 ### *Extended abstracts*
+
+* ### [Broken Links (Presentation)](papers/broken-proweb2020.pdf)
+<p>Frank Emrich and Daniel Hillerström</p>
+<p>Submitted to [ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)
 
 * ### [Handlers.Js (Presentation)](papers/handlers_js-proweb2018.pdf)
 <p>Daniel Hillerström, Sam Lindley, Robert Atkey, KC Sivaramakrishnan, and Jeremy Yallop</p>
