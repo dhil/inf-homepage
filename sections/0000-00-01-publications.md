@@ -34,7 +34,7 @@ glyph: tasks
 
 * ### [Broken Links (Presentation)](papers/broken-proweb2020.pdf)
 <p>Frank Emrich and Daniel Hillerström</p>
-<p>Submitted to [ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)
+<p>[ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)
 
 * ### [Handlers.Js (Presentation)](papers/handlers_js-proweb2018.pdf)
 <p>Daniel Hillerström, Sam Lindley, Robert Atkey, KC Sivaramakrishnan, and Jeremy Yallop</p>
