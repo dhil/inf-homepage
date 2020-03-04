@@ -6,9 +6,9 @@ glyph: tasks
 
 ### *Papers*
 
-* ### [Asymptotic Improvement with Effect Handlers](papers/asymptotic_improvement-draft-november2019.pdf)
+* ### [Effects for Efficiency: Asymptotic Speedup with First-Class Control](papers/effects_for_efficiency-draft-march2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
-<p>Draft, November 2019</p>
+<p>Draft, March 2020</p>
 
 * ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
