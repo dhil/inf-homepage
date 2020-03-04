@@ -34,11 +34,11 @@ glyph: tasks
 
 * ### [Broken Links (Presentation)](papers/broken-proweb2020.pdf)
 <p>Frank Emrich and Daniel Hillerström</p>
-<p>[ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)
+<p>[ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)</p>
 
 * ### [Handlers.Js (Presentation)](papers/handlers_js-proweb2018.pdf)
 <p>Daniel Hillerström, Sam Lindley, Robert Atkey, KC Sivaramakrishnan, and Jeremy Yallop</p>
-<p>[ProWeb Workshop 2018](https://2018.programming-conference.org/track/proweb-2018-papers)
+<p>[ProWeb Workshop 2018](https://2018.programming-conference.org/track/proweb-2018-papers)</p>
 
 * ### [Effectively Tackling the Awkward Squad](papers/awkward_effects-ml17.pdf)
 <p>Stephen Dolan, Spiros Eliopoulos, Daniel Hillerström, Anil Madhavapeddy, KC Sivaramakrishnan, Leo White</p>
