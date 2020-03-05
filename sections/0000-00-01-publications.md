@@ -6,6 +6,10 @@ glyph: tasks
 
 ### *Papers*
 
+* ### [Effect Handlers, Evidently](papers/effect_handlers_evidently-draft-march2020.pdf)
+<p>Ningning Xie, Jonathan Brachthäuser, Daniel Hillerström, Philipp Schuster, and Daan Leijen</p>
+<p>Draft, March 2020</p>
+
 * ### [Effects for Efficiency: Asymptotic Speedup with First-Class Control](papers/effects_for_efficiency-draft-march2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
 <p>Draft, March 2020</p>
