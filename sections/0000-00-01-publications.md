@@ -10,9 +10,9 @@ glyph: tasks
 <p>Ningning Xie, Jonathan Brachthäuser, Daniel Hillerström, Philipp Schuster, and Daan Leijen</p>
 <p>*In* [ICFP'20](https://icfp20.sigplan.org/)</p>
 
-* ### [Effects for Efficiency: Asymptotic Speedup with First-Class Control](papers/effects_for_efficiency-draft-march2020.pdf)
+* ### [Effects for Efficiency: Asymptotic Speedup with First-Class Control](https://arxiv.org/abs/2007.00605)
 <p>Daniel Hillerström, Sam Lindley, and John Longley</p>
-<p>Draft, March 2020</p>
+<p>*In* [ICFP'20](https://icfp20.sigplan.org/)</p>
 
 * ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
