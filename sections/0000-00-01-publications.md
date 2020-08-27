@@ -16,7 +16,7 @@ glyph: tasks
 
 * ### [Effect Handlers via Generalised Continuations](papers/generalised_continuations-jfp2020.pdf)
 <p>Daniel Hillerström, Sam Lindley, and Robert Atkey</p>
-<p>To appear in the special issue on algebraic effects and handlers, January 2020</p>
+<p>*In* [JFP](https://www.cambridge.org/core/journals/journal-of-functional-programming) (special issue on algebraic effects and handlers) 30:e5, March 2020</p>
 
 * ### [Shallow Effect Handlers](papers/shallow_effect_handlers-extended-aplas2018.pdf)
 <p>Daniel Hillerström and Sam Lindley</p>
