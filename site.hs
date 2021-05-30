@@ -67,8 +67,8 @@ pageContext = mconcat
                 dateField "date" "%B %e, %Y"
               , constField "keywords" "computer science,mathematics,programming languages,compilers,parallelism"
               , constField "fullname" "Daniel Hillerstr&#246;m"
-              , constField "position" "Research Postgraduate Student"                
-              , constField "office" "5.24/1"
+              , constField "position" "Researcher"                
+              , constField "office" "5.28/1"
               , constField "calendarUrl" "https://www.google.com/calendar/embed?src=236h5mc80or5ltgj91acmr5vhag1s4jg%40import.calendar.google.com&amp;mode=WEEK&amp;ctz=Europe/London"
               , socialContext
               , defaultContext
@@ -79,7 +79,7 @@ socialContext = mconcat
                 [
                   constField "url" "https://www.dhil.net/research"
                 , constField "image" "https://www.dhil.net/research/static/images/danielhillerstrom.jpg"
-                , constField "description" "Daniel Hillerstr&#246;m is a PhD student enrolled into the Centre for Doctoral Training in Pervasive Parallelism at the School of Informatics, the University of Edinburgh. His primary research interests are programming languages, their use and implementation."
+                , constField "description" "Daniel Hillerstr&#246;m is a researcher at The University of Edinburgh."
                 , constField "sitename" "Informatics research profile page"
                 , constField "twitterHandle" "@dhillerstrom"
                 , constField "pagetitle" "Daniel Hillerstr&#246;m | University of Edinburgh"
