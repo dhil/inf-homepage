@@ -54,13 +54,17 @@ glyph: tasks
 
 ### *Dissertations*
 
+* ### [Foundations for Programming and Implementing Effect Handlers](https://github.com/dhil/phd-dissertation)
+<p>Daniel Hillerström</p>
+<p>PhD dissertation, School of Informatics, The University of Edinburgh, May 2021 (pending examination)</p>
+
 * ### [Compilation of Effect Handlers and their Applications in Concurrency](papers/thesis2016.pdf)
 <p>Daniel Hillerström</p>
-<p>MSc(R) dissertation, School of Informatics, the University of Edinburgh, August 2016</p>
+<p>MSc(R) dissertation, School of Informatics, The University of Edinburgh, August 2016</p>
 
 * ### [Handlers for Algebraic Effects in Links](papers/thesis2015.pdf)
 <p>Daniel Hillerström</p>
-<p>MSc dissertation, School of Informatics, the University of Edinburgh, August 2015</p>
+<p>MSc dissertation, School of Informatics, The University of Edinburgh, August 2015</p>
 
 * ### The Constructive Completeness of Intuitionistic Propositional Logic
 <p>Daniel Hillerström and Mathias Ruggaard Pedersen</p>
