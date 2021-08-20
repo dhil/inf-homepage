@@ -36,6 +36,10 @@ glyph: tasks
 
 ### *Extended abstracts*
 
+* ### [Composing UNIX with Effect Handlers](papers/unix-ml2021.pdf)
+<p>Daniel Hillerström</p>
+<p>[ML Family Workshop 2021](https://icfp21.sigplan.org/home/mlfamilyworkshop-2021)</p>
+
 * ### [Broken Links (Presentation)](papers/broken-proweb2020.pdf)
 <p>Frank Emrich and Daniel Hillerström</p>
 <p>[ProWeb Workshop 2020](https://2020.programming-conference.org/track/proweb-2020-papers)</p>
