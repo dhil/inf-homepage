@@ -58,9 +58,9 @@ glyph: tasks
 
 ### *Dissertations*
 
-* ### [Foundations for Programming and Implementing Effect Handlers](https://github.com/dhil/phd-dissertation)
+* ### [Foundations for Programming and Implementing Effect Handlers](papers/thesis.pdf)
 <p>Daniel Hillerström</p>
-<p>PhD dissertation, School of Informatics, The University of Edinburgh, May 2021 (pending examination)</p>
+<p>PhD dissertation, School of Informatics, The University of Edinburgh, May 2021</p>
 
 * ### [Compilation of Effect Handlers and their Applications in Concurrency](papers/thesis2016.pdf)
 <p>Daniel Hillerström</p>
